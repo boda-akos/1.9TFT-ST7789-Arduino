@@ -20,7 +20,7 @@ Adafruit_ST7789::Adafruit_ST7789(SPIClass *spiClass, int8_t cs, int8_t dc,
 
 // SCREEN INITIALIZATION ***************************************************
 
-#define ST7789_170x320_XSTART 0x24
+#define ST7789_170x320_XSTART 0x23   //try 0x24 too
 #define ST7789_170x320_YSTART 0x00
 
 static const uint8_t
